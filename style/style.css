@@ -1,0 +1,52 @@
+body,h1,h2,h3,p,ul,li{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: tahoma, arial;
+    background-color: #130f94;
+    color:#525950;
+    line-height: 1.6;
+}
+header{
+    background-color: #28e668;
+    color: whitesmoke;
+    padding: 2opx;
+}
+nav ul{
+    list-style: nome;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: nome;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+article{
+    width: 70%;
+    background-color: #6c0ad5;
+    padding: 20px;
+    color: whitesmoke;
+}
+aside{
+    width: 25%;
+    background-color: #7319af;
+    padding: 20px;
+    color: whitesmoke;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #040404;
+    color: whitesmoke;
+}
